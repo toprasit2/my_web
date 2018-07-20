@@ -1,20 +1,56 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+<nav class="grey darken-3"><a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a></nav>
+
+<ul id="slide-out" class="sidenav sidenav-fixed">
+
+  <li >
+    <div class="user-view">
+      <div class="background">
+        <img src="assets/img/bg.jpg">
+      
+      </div>
+      <div class="row">
+        <div class="col m2"></div>
+        <div class="col m8">
+            <!-- <a href="#user"><img class="responsive-img" src="https://firebasestorage.googleapis.com/v0/b/geng-profile.appspot.com/o/01.png?alt=media&token=8535b07f-2c85-46c4-93ab-e5f20be8801c"></a> -->
+            <a href="#user"><img class="responsive-img" src="assets/img/01.png"></a>
+        </div>
+        <div class="col m2"></div>
+      </div>
+      <div class="row">
+          <div class="col m8">
+              <a href="#name"><span class=" grey-text text-darken-3 name">Thanaphon Toprasit</span></a>
+              <a href="#email"><span class="grey-text text-darken-3 email">toprasit.gk@gmail.com</span></a>
+          </div>
+          <div class="col m4 valign-wrapper">
+            <p class="center">
+              <a class="btn grey darken-1 modal-trigger" href="#modal1"><i class="material-icons">call_end</i></a>
+            </p>
+          </div>
+      </div>
+      
+    </div>
   </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
+  <li id="home" class="hoverable"><a href="/#/home">Home</a></li>
+  <li id="about" class="hoverable"><a href="/#/about">About</a></li>
+  <li id="portfolio" class="hoverable"><a href="/#/portfolio">Portfolio</a></li>
 </ul>
 
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <div class="row">
+          <div class="col s12 m2 center"><a href="https://www.facebook.com/minimonstel2" class="grey-text text-darken-3"><img src="https://firebasestorage.googleapis.com/v0/b/geng-profile.appspot.com/o/facebook_crop.png?alt=media&token=234e5f9c-a8a3-48ad-b34b-74b4bb4f008b" width="80%">Thanaphon Toprasit</a></div>
+          <div class="col s12 m2 center"><a href="https://twitter.com/ThanaphonTopras?lang=en" class="grey-text text-darken-3"><img src="https://firebasestorage.googleapis.com/v0/b/geng-profile.appspot.com/o/twiitrt_crop.png?alt=media&token=58b64c4a-1ee4-495a-88bc-c32b1dd2c310" width="80%"><br>T.</a></div>
+          <div class="col s12 m2 center"><a href="#" class="grey-text text-darken-3"><img src="https://firebasestorage.googleapis.com/v0/b/geng-profile.appspot.com/o/google_crop.png?alt=media&token=e64ed185-7dfd-41aa-bb75-46a6d9ba9f33" width="80%"></a><br><span class="truncate"><br>toprasit.gk@gmail.com</span></div>
+          <div class="col s12 m2 center" ><a href="https://www.instagram.com/gengnikub/" class="grey-text text-darken-3"><img src="https://firebasestorage.googleapis.com/v0/b/geng-profile.appspot.com/o/Instagram_crop.png?alt=media&token=ba38f259-583b-430d-9406-cf3056e4ab78" width="80%">gengnikub</a></div>
+          <div class="col s12 m2 center"><a href="https://github.com/toprasit2" class="grey-text text-darken-3"><img src="https://firebasestorage.googleapis.com/v0/b/geng-profile.appspot.com/o/GitHub_crop.png?alt=media&token=8b640554-3ab2-4bd5-8036-f4eca86f1e53" width="80%">minimonster</a></div>
+          <div class="col s12 m2 center"><a href="#" class="grey-text text-darken-3" ><img src="https://firebasestorage.googleapis.com/v0/b/geng-profile.appspot.com/o/call_crop.png?alt=media&token=8787671e-23bc-4222-91f3-e6e636887f39" width="80%"></a>0993023911</div>
+        </div>      
+    </div>
+    <div class="modal-footer"style="max-width: 450px; margin-right: 0px">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">close</a>
+    </div>
+</div>
+
+<main>
+  <router-outlet></router-outlet>
+</main>

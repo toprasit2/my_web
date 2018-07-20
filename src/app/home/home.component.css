@@ -1,0 +1,8 @@
+.parallax-container {
+    height: 500px;
+  }
+  @media only screen and (max-width : 992px) {
+    .parallax-container {
+        height: 350px;
+      }
+  }
